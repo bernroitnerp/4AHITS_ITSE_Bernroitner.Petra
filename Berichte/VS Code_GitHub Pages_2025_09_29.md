@@ -30,4 +30,12 @@ $ sudo sh -c 'echo "deb [arch=amd64 signed-by=/etc/apt/trusted.gpg.d/packages.mi
 $ sudo apt update
 
 $ sudo apt install code
+
+
+
+
+
+wget -O ~/Downloads/code.deb "https://update.code.visualstudio.com/latest/linux-deb-x64/stable"
+sudo dpkg -i ~/Downloads/code.deb
+sudo apt -f install
 ```
