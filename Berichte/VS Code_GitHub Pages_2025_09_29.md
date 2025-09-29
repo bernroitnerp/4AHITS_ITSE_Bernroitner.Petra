@@ -27,4 +27,4 @@ Im Terminal ```Code``` eingeben
 
 vs code:
 
-preferences -> Auto Save -> after Delay
+preferences -> settings -> Auto Save ->  "after Delay"
