@@ -3,17 +3,16 @@
 
  ---
 
-# VM auf Bridged Modus stellen
+## VM auf Bridged Modus stellen
  Bridged:
- Admin machen
- VM Einstellungen
- Network Adapters -> Bridged -> Configure Adapters
- -> nur das Realtek PCIe GbE Family Controller wählen (Labornetz)
- das Intel(R) Ethernet Connection ist das HTL Netz
+ 1. sich zum Admin machen
+ 2. VM Einstellungen:
+ Network Adapters -> Bridged -> Configure Adapters -> nur das Realtek PCIe GbE Family Controller wählen (Labornetz)
+ das Intel(R) Ethernet Connection weg, das ist das HTL Netz.
 
 ---
 
-# Visual Studios auf Kali installieren
+## Visual Studios auf Kali installieren
 
 in der Kommandozeile alle folgenden Befehle eingeben:
 
