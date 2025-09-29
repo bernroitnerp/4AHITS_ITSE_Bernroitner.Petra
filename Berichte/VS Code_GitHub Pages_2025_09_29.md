@@ -45,3 +45,5 @@ git add .
 
 Test ob es im Kali nagezeigt wird:
 
+gi tpull
+
