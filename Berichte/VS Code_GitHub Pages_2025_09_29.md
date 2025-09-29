@@ -39,3 +39,8 @@ wget -O ~/Downloads/code.deb "https://update.code.visualstudio.com/latest/linux-
 sudo dpkg -i ~/Downloads/code.deb
 sudo apt -f install
 ```
+
+
+vs code:
+
+preferences -> Auto Save -> after Delay
