@@ -28,3 +28,17 @@ Im Terminal ```Code``` eingeben
 vs code:
 
 preferences -> settings -> Auto Save ->  "after Delay"
+
+
+
+Klonen:
+```sh
+git clone https://github.com/bernroitnerp4AHITS_ITSE_Bernroitner.Petra
+```
+
+Weiter:
+Im VS Code das Terminal öffnen und im Git prüfen, ob das richtige Repository offen ist ```ls``` oder ```git status```, dann folgendes eingeben:
+```sh
+git add .
+```
+
