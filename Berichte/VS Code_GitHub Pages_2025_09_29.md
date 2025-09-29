@@ -42,3 +42,6 @@ Im VS Code das Terminal öffnen und im Git prüfen, ob das richtige Repository o
 git add .
 ```
 
+
+Test ob es im Kali nagezeigt wird:
+
