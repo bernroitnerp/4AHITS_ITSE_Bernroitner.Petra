@@ -2,6 +2,14 @@
  ### Petra Bernroitner, 4AHITS, 29.09.2025
 
  ---
+# Aufgabenstellungen:
+1. Aktiviere GitHub Pages und kontrolliere ob html Files aus den Markdown Files generiert werden.
+2. Installiere Kali und Metasploitable (falls noch nicht geschehen)
+3. Stelle beide VMs auf Bridged ins Labor-Netz
+4. Installiere Visual Studio Code auf Kali Linux
+5. Klone das Github Projekt in Kali, nimm mit VS Code eine Änderung im Markdown vor, führe add, commit und push durch und prüfe ob die Änderungen in der generierten html Seite ankommen (kurze Wartezeit)
+6. Nimm nun über die GitHub Oberfläche eine Änderung vor und prüfe ob diese per git pull in den Klon auf Kali übernommen werden.
+
 
 ## VM auf Bridged Modus stellen
  Bridged:
@@ -32,7 +40,7 @@ preferences -> settings -> Auto Save ->  "after Delay"
 
 
 
-Klonen:
+### GitHub Projekt klonen:
 ```sh
 git clone https://github.com/bernroitnerp4AHITS_ITSE_Bernroitner.Petra
 ```
