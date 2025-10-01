@@ -53,8 +53,9 @@ git commit -m "[Nachtricht]"
 git push
 ```
 
+### Test: GitHub -> Kali 
 
-Test ob es im Kali nagezeigt wird:
+Test ob es im Kali angezeigt wird:
 ```sh
 git pull
 ```
