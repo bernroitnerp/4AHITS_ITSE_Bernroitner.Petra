@@ -3,8 +3,8 @@ Petra Bernroitner, 4AHITS, 29.09.2025
 
 ---
  # ITSE VS Code, Github Pages
---- 
- 
+
+
 # Aufgabenstellungen:
 1. Aktiviere GitHub Pages und kontrolliere ob html Files aus den Markdown Files generiert werden.
 2. Installiere Kali und Metasploitable (falls noch nicht geschehen)
