@@ -25,7 +25,8 @@ um VS Code auszuführen:
 
 Im Terminal ```Code``` eingeben
 
-vs code:
+
+in VS code:
 
 preferences -> settings -> Auto Save ->  "after Delay"
 
@@ -40,6 +41,7 @@ Weiter:
 Im VS Code das Terminal öffnen und im Git prüfen, ob das richtige Repository offen ist ```ls``` oder ```git status```, dann folgendes eingeben:
 ```sh
 git add .
+git commit -m "[Nachtricht]"
 ```
 
 
