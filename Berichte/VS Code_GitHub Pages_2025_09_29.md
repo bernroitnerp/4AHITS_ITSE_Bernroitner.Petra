@@ -42,6 +42,7 @@ Im VS Code das Terminal öffnen und im Git prüfen, ob das richtige Repository o
 ```sh
 git add .
 git commit -m "[Nachtricht]"
+git push
 ```
 
 
