@@ -34,8 +34,8 @@ um VS Code auszuführen:
 Im Terminal ```Code``` eingeben
 
 
-in VS code:
 
+in VS code:
 preferences -> settings -> Auto Save ->  "after Delay"
 
 
