@@ -44,6 +44,6 @@ git add .
 
 
 Test ob es im Kali nagezeigt wird:
-
-gi tpull
-
+```sh
+git pull
+```
