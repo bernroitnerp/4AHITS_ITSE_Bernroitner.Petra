@@ -42,6 +42,12 @@ Beim port probing möchte man herausfinden ob auf einem gewissen port ein Dienst
 
 
 1. Verwende telnet um festzustellen ob ein ssh Server auf Metasploitable läuft
+
+   <img width="335" height="164" alt="image" src="https://github.com/user-attachments/assets/37408c72-58f6-486f-8947-d45929205fed" />
+
+   Die Fehlermeldung ```Protocol mismatch``` ist kein wirkliches Problem. Der Port ist offen!
+   Der Server läuft, jedoch versteht das Protokol Telnet ssh nicht.
+
 2. Finde Bezeichnung und die Versionsnummer des Web Servers auf Metasploitable heraus. Auf 3 Arten:
 - Verwende telnet
 - Verwende nc (netcat)
