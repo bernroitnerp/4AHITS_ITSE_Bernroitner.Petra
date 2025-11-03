@@ -130,3 +130,13 @@ Hier wurden folgende Dienste gefunden:
 - ftp
 
 
+## Übung (nmap port scan)
+Nach dem ping scan (und wenn nicht die Option -sn angegeben ist) führt nmap automatisch einen port scan auf allen gefundenen hosts aus. 
+Dabei wird versucht alle offenen Ports eines Hosts zu finden. Das Ziel ist eine Liste der am Host laufenden Dienste zu erhalten.
+
+Hinweise: Man kann eine einzelne IP Adresse angeben, dann wird nur diese gescannt, z.B.: nmap 192.168.178.42
+
+
+**Aufgaben:**
+
+1. Führe einen port scan auf die Metasploitable VM durch. Analysiere das Ergebnis.
