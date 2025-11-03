@@ -140,3 +140,10 @@ Hinweise: Man kann eine einzelne IP Adresse angeben, dann wird nur diese gescann
 **Aufgaben:**
 
 1. Führe einen port scan auf die Metasploitable VM durch. Analysiere das Ergebnis.
+
+```nmap -p- IP_META```
+das ```-p-``` scannt alle Ports von 1 bis 65535
+nmap erkennt auch die Dienste.
+
+<img width="522" height="622" alt="image" src="https://github.com/user-attachments/assets/530840e8-05c4-40f6-b2e8-65b3f13cc1d2" />
+hier ist alles TCP
