@@ -27,3 +27,5 @@ nmap -sn 192.168.1.0/24
 - 
 
 ## Ermittle alle aktiven Hosts im Subnetz des Labor-Netzwerks mit nmap.
+
+<img src="https://github.com/user-attachments/assets/f280a557-21ad-4ee2-8d2f-ef2ae8c41579" />
