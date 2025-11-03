@@ -112,3 +112,7 @@ Ermittle mit Hilfe von netcat welche Ports zwischen 1 und 30 in der Metasploitab
 – Hinweis: dies geht in einer einzigen Kommandozeile. Recherchiere welche Dienste sich dort befinden.
 
 Randnotitz: netcat wird auch gerne als das swiss army knife of network tools bezeichnet.
+
+<img width="472" height="125" alt="image" src="https://github.com/user-attachments/assets/97f8fbc4-8a8b-4330-9b0b-695fd645449e" />
+
+
