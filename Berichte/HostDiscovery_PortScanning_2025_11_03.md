@@ -60,6 +60,7 @@ das ``` GET /HTTP/1.0``` ist hier die Header-Request-Line. Die sagt, welche HTTP
 
 - Verwende curl
 <img width="310" height="124" alt="image" src="https://github.com/user-attachments/assets/b15e6323-0d40-4648-a914-ceb1d5499cea" />
+
 das ``` -I ``` zeigt den  HTTP HEAD-Request
 
 ```Curl -I``` ist der einfachste Weg, um Webserver Informationen anzuzeigen.
@@ -67,4 +68,38 @@ das ``` -I ``` zeigt den  HTTP HEAD-Request
 
 3. Erstelle ein port probing cheat sheet für alle 3 Tools
 
-  
+**Telnet**
+```
+telnet METASPLOITABLE_IP 80
+```
+
+Dann:
+```
+GET / HTTP/1.0
+```
+-> Server-Header ist sichtbar
+
+
+**Netcat (nc)**
+```
+nc METASPLOITABLE_IP 80
+```
+
+Dann manuell:
+```
+GET / HTTP/1.0
+```
+-> Server-Header erscheint 
+
+**Curl**
+```
+curl -I http://METASPLOITABLE_IP
+```
+
+Zeigt wegen ```-I ``` direkt die Header, z. B.:
+```
+Server: Apache/2.2.8 (Ubuntu)
+```
+-> Einfachste & "zuverlässigste" Methode (laut ChatGPT)
+
+
