@@ -111,8 +111,22 @@ Server: Apache/2.2.8 (Ubuntu)
 Ermittle mit Hilfe von netcat welche Ports zwischen 1 und 30 in der Metasploitable VM geöffnet sind 
 – Hinweis: dies geht in einer einzigen Kommandozeile. Recherchiere welche Dienste sich dort befinden.
 
-Randnotitz: netcat wird auch gerne als das swiss army knife of network tools bezeichnet.
+*Randnotitz: netcat wird auch gerne als das swiss army knife of network tools bezeichnet.*
+
+```
+nc -zv METASPLOITABLE_IP 1-30
+```
+Erklärung der Optionen:
+- -z → Scan-Modus, keine Daten senden, nur prüfen ob Port offen ist
+- -v → "verbose", zeigt Ports an, die offen/geschlossen sind
+- 1-30 → der Portbereich von 1 bis 30
 
 <img width="472" height="125" alt="image" src="https://github.com/user-attachments/assets/97f8fbc4-8a8b-4330-9b0b-695fd645449e" />
+
+Hier wurden folgende Dienste gefunden:
+- smtp
+- telnet
+- ssh
+- ftp
 
 
