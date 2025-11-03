@@ -8,7 +8,7 @@ In einer ersten Phase (host discovery, ping scan oder ping sweep) ermittelt nmap
 
 **Aufgaben:**
 
-## Recherchiere zur grundlegenden Anwendung von nmap für einen sogenannten ping scan (host discovery).
+## Recherchiere zur grundlegenden Anwendung von nmap für einen sogenannten ping scan.
 
 Ein Ping-Scan in nmap heißt heutzutage -sn. Er fragt nur ab, welche Hosts online sind (Host Discovery), ohne anschließend Ports zu scannen. 
 nmap benutzt diese Methoden: ICMP, TCP, UDP, ARP u. a.
@@ -50,9 +50,21 @@ Beim port probing möchte man herausfinden ob auf einem gewissen port ein Dienst
 
 2. Finde Bezeichnung und die Versionsnummer des Web Servers auf Metasploitable heraus. Auf 3 Arten:
 - Verwende telnet
+<img width="633" height="309" alt="image" src="https://github.com/user-attachments/assets/ca6a3db4-f87c-4596-ae38-90af8bd93a76" />
+
+das ``` GET /HTTP/1.0``` ist hier die Header-Request-Line. Die sagt, welche HTTP-Protokoll Version verwendet wird.
+  
 - Verwende nc (netcat)
-- Hinweis: der notwendige http request header kann am besten mit Hilfe eines Shell here-documents beschrieben werden.
+   - Hinweis: der notwendige http request header kann am besten mit Hilfe eines Shell here-documents beschrieben werden.
+ <img width="629" height="264" alt="image" src="https://github.com/user-attachments/assets/53792d6b-3cfd-4b5a-aa4b-34aa6a970ea3" />
+
 - Verwende curl
+<img width="310" height="124" alt="image" src="https://github.com/user-attachments/assets/b15e6323-0d40-4648-a914-ceb1d5499cea" />
+das ``` -I ``` zeigt den  HTTP HEAD-Request
+
+```Curl -I``` ist der einfachste Weg, um Webserver Informationen anzuzeigen.
+
+
 3. Erstelle ein port probing cheat sheet für alle 3 Tools
 
   
