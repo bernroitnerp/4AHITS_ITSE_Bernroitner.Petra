@@ -105,3 +105,10 @@ Server: Apache/2.2.8 (Ubuntu)
 -> Einfachste & "zuverlässigste" Methode (laut ChatGPT)
 
 --- 
+
+
+## Übung (netcat port scan)
+Ermittle mit Hilfe von netcat welche Ports zwischen 1 und 30 in der Metasploitable VM geöffnet sind 
+– Hinweis: dies geht in einer einzigen Kommandozeile. Recherchiere welche Dienste sich dort befinden.
+
+Randnotitz: netcat wird auch gerne als das swiss army knife of network tools bezeichnet.
