@@ -68,6 +68,8 @@ das ``` -I ``` zeigt den  HTTP HEAD-Request
 
 3. Erstelle ein port probing cheat sheet für alle 3 Tools
 
+   ### Cheat Sheet
+
 **Telnet**
 ```
 telnet METASPLOITABLE_IP 80
@@ -102,4 +104,4 @@ Server: Apache/2.2.8 (Ubuntu)
 ```
 -> Einfachste & "zuverlässigste" Methode (laut ChatGPT)
 
-
+--- 
